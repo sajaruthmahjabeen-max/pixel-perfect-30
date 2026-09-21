@@ -38,12 +38,13 @@ const navItems = [
 ];
 
 const floaties = [
-  { label: "123", color: "text-sunshine", pos: "left-[4%] top-[18%]", anim: "animate-float-slow" },
-  { label: "ABC", color: "text-coral", pos: "left-[16%] top-[62%]", anim: "animate-float-fast" },
-  { label: "</>", color: "text-royal", pos: "left-[42%] top-[10%]", anim: "animate-float-slow" },
-  { label: "★", color: "text-tangerine", pos: "left-[36%] top-[78%]", anim: "animate-float-fast" },
-  { label: "+ ×", color: "text-lavender", pos: "left-[8%] top-[86%]", anim: "animate-float-slow" },
+  { label: "123", color: "text-sunshine", pos: "-left-12 top-[12%]", anim: "animate-float-slow" },
+  { label: "ABC", color: "text-coral", pos: "-left-14 top-[58%]", anim: "animate-float-fast" },
+  { label: "</>", color: "text-royal", pos: "right-2 top-[6%]", anim: "animate-float-slow" },
+  { label: "★", color: "text-tangerine", pos: "right-6 bottom-[8%]", anim: "animate-float-fast" },
+  { label: "+ ×", color: "text-lavender", pos: "-left-10 bottom-[4%]", anim: "animate-float-slow" },
 ];
+
 
 function Index() {
   return (
